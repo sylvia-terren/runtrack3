@@ -1,4 +1,5 @@
-link = 
+//link = 
+
 $(document).ready(function(){
     if ( $(window).width() > 1680 && $(window).width() < 1920) {
        link.href = "style1.css";
