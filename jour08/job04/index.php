@@ -10,7 +10,7 @@
 </head>
 
 <body class="bg-green-500">
-    
+
     <header class="flex justify-evenly w-full bg-green-200">
         <nav class="flex py-2 md:py-4">
             <a href="index.php" class="p-2 lg:px-4 md:mx-3 text-white rounded bg-green-400">Accueil</a>
@@ -20,51 +20,51 @@
         </nav>
     </header>
 
-    <section class="p-7">
+    <section class="p-7 md:py-2">
         <h1 class="font-semibold text-green-900 font-sans text-3xl">Pas encore de compte ?</h1>
-        <form>
-            <div>
+        <form class="w-full max-w-xs">
+            <div class="text-green-900 font-bold mb-2">
                 <label for="civilite">Civilité</label>
                 <input type="radio" name="mr">Monsieur
                 <input type="radio" name="mme">Madame
             </div>
             <div>
-                <label for="prenom">Prénom</label>
-                <input type="text" name="name">
+                <label for="prenom" class="block text-green-900 font-bold mb-2">Prénom</label>
+                <input type="text" name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
             </div>
             <div>
-                <label>Nom</label>
-                <input type="text">
+                <label class="block text-green-900 font-bold mb-2">Nom</label>
+                <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
             </div>
             <div>
-                <label>Adresse</label>
-                <input type="text">
+                <label class="block text-green-900 font-bold mb-2">Adresse</label>
+                <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
             </div>
             <div>
-                <label>Email</label>
-                <input type="email">
+                <label class="block text-green-900 font-bold mb-2">Email</label>
+                <input type="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
             </div>
             <div>
-                <label>Mot de passe</label>
-                <input type="password">
+                <label class="block text-green-900 font-bold mb-2">Mot de passe</label>
+                <input type="password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
             </div>
             <div>
-                <label>Comfirmez le mot de passe</label>
-                <input type="password">
+                <label class="block text-green-900 font-bold mb-2">Comfirmez le mot de passe</label>
+                <input type="password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
             </div>
             <div>
-                <label>Passions</label>
+                <label class="block text-green-900 font-bold mb-2">Passions</label>
                 <input type="checkbox">Informatique
                 <input type="checkbox">Voyages
                 <input type="checkbox">Sport
                 <input type="checkbox">Lecture
             </div>
             <div>
-                <input type="submit" value="Valider">
+                <input type="submit" value="Valider" class="p-2 lg:px-4 md:mx-3 text-white rounded bg-green-600">
             </div>
         </form>
     </section>
-    <footer class="absolute bottom-0 w-full flex justify-around w-full bg-green-900">
+    <footer class="bottom-0 w-full flex justify-around w-full bg-green-900">
         <nav class="flex py-2 md:py-4">
             <a href="index.php" class="p-2 lg:px-4 md:mx-3 text-white">Accueil</a>
             <a href="index.php" class="p-2 lg:px-4 md:mx-3 text-white">Inscription</a>
@@ -75,3 +75,5 @@
 </body>
 
 </html>
+
+<!--icone by Heroicon--> 
